@@ -61,3 +61,9 @@ This tool enhances Blender’s native shape key functionality by enabling:
 ## 🪪 License
 
 This add-on is licensed under the GNU GPL v3.0 or later
+
+---
+
+## ℹ️ Tip
+
+For best results, split or join mesh parts while the object is still axis-symmetric (i.e., before applying shape key deformation).
