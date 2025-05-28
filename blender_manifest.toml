@@ -1,14 +1,22 @@
+schema_version = "1.0.0"
+
 id = "shape_key_mirror_plus"
-name = "Shape Key Mirror Plus"
 version = "1.7.0"
-blender_version_min = "4.2.0"
+name = "Shape Key Mirror Plus"
+
+maintainer = "Ciyorie(with GPT support)"
 type = "add-on"
-maintainers = ["Ciyorie"]
-license = "GPL-3.0-or-later"
-support = "community"
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
 
 description = """
 Mirror shape key deltas across a selected axis, with support for multi-part symmetric meshes and split objects.
 """
 
-tags = ["mesh", "shape keys", "mirror", "symmetry"]
+tagline = "Mirror shape key deltas across symmetric axes"
+
+tags = ["Mesh", "Object", "Modeling"]
