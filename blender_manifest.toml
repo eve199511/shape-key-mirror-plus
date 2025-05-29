@@ -19,4 +19,4 @@ Mirror shape key deltas across a selected axis, with support for multi-part symm
 
 tagline = "Mirror shape key deltas across symmetric axes"
 
-tags = ["Mesh", "Object", "Modeling"]
+tags = ["Mesh", "Modeling"]
