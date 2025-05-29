@@ -1,4 +1,4 @@
-# shape-key-mirror-plus
+# Shape Key Mirror Plus
 
 A Blender addon to mirror shape key deltas across the X/Y/Z axis with support for multi-part symmetric geometry.
 
@@ -9,7 +9,7 @@ A Blender addon to mirror shape key deltas across the X/Y/Z axis with support fo
 
 ## 🧩 Description
 
-**Shape Key Mirror Plus** is a Blender add-on that enables accurate mirroring of shape key deltas across a specified axis. It supports objects with multiple disconnected parts, including those that were split but remain symmetric.
+**Shape Key Mirror Plus** is a Blender plugin that symmetrizes or mirrors shape key deformations based on a symmetric base shape. Designed to avoid errors commonly found in Blender’s default shape key mirroring, especially on complex multi-part meshes.
 
 This tool enhances Blender’s native shape key functionality by enabling:
 
@@ -23,20 +23,21 @@ This tool enhances Blender’s native shape key functionality by enabling:
 
 ## 🔧 Installation
 
-1. Download the file: `shape_key_mirror_plus_v1.9.zip`
+1. Download the file: `shape_key_mirror_plus_v1.x.zip`
 2. Open Blender and go to: **Edit > Preferences > Add-ons**
 3. Click **Install**, and select the `.zip` file
 4. Enable the add-on: **Shape Key Mirror Plus**
-5. You will find it under: **Properties > Object Data > Shape Keys**
+5. You will find it under: **Properties > Object Data > Shape Key Mirror Plus**
 
 ---
 
 ## 🚀 How to Use
 
-1. Select an object with shape keys
-2. Choose a shape key to mirror
+1. Select an object with shape keys.
+2. Choose a shape key to process.
 3. Set the axis (`X`, `Y`, or `Z`), direction (`Negative` or `Positive`), and tolerance
-4. Click the **"Mirror Shape Key"** button
+4. Click **Symmetrize Shape Key** to apply one-way symmetry from one side to the other.
+5. Or click **Mirror Shape Key** to swap and mirror deltas between both sides.
 
 ---
 
