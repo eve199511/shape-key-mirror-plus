@@ -3,9 +3,9 @@
 bl_info = {
     "name": "Shape Key Mirror Plus",
     "author": "Ciyorie (with GPT support)",
-    "version": (1, 8),
+    "version": (1, 9),
     "blender": (4, 2, 0),
-    "location": "Properties > Object Data > Shape Key Mirror Plus",
+    "location": "Properties > Object Data > Shape Key",
     "description": "Mirror shape key deltas across a selected axis, with support for multi-part symmetric meshes and split objects.",
     "category": "Object",
 }
