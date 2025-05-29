@@ -27,7 +27,7 @@ This tool enhances Blender’s native shape key functionality by enabling:
 2. Open Blender and go to: **Edit > Preferences > Add-ons**
 3. Click **Install**, and select the `.zip` file
 4. Enable the add-on: **Shape Key Mirror Plus**
-5. You will find it under: **Properties > Object Data > Shape Key Mirror Plus**
+5. You will find it under: **Properties > Object Data > Shape Key**
 
 ---
 
